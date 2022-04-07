@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A bit more CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+  <div class="header">
+      <h1>My Website</h1>
+      <p> This is my Subtitle</p>
+
+  </div> 
+
+  <div class="topnav">
+      <a href="#">Home button</a>
+      <a href="#">Github</a>
+      <a href="#">My CV</a>
+
+      <a href="#" style="float:right">Contact</a>
+      
+    </div> 
+
+    <h1>wow what a cool website</h1>
+    <p>This is the wesbite text</p>
+
+<p><a href=http://google.com>hello</a></p>
+   
+<div class="footer">
+      <p>this is copyright Emma Shiels :)</p>
+    </div> 
+<style>
+    Body {
+        background-color: beige;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .header {
+        padding: 30px;
+        background-color:blanchedalmond; 
+        text-align: center;
+        max-width: 900px;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color:aquamarine;
+        max-width: 900px;
+    }
+
+    .topnav a {
+        float:left; 
+        display:block; 
+        color:blueviolet;
+        text-align: center;
+        padding:14px 16px;
+        text-decoration: none;
+    }
+
+    .topnav a:hover {
+        background-color: darkred;
+        color: black;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0px;
+        right: 20px;
+    }
+    </style>   
+</body>
+
+
+</html>
